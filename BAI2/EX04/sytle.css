@@ -1,0 +1,75 @@
+body{
+ background-color:White;
+ font-size:15px
+}
+
+
+/* Header **/
+header{
+   columns:2;
+ background-color:gray;
+ color:rgb(21, 255, 0);
+ border: 1px soild red;
+ padding: 30px;
+ min-height: 70px;
+ font-family:Arial,Helvetica,sans-serif;
+ bottom:auto
+}
+header a{
+ text-decoration:none;
+}
+header li{
+ display:inline-block;
+ padding-right:24px;
+}
+header #branding{
+   color:rgb(255, 242, 0)
+}
+header nav{
+ position:initial;
+ transform: translateX(0);
+ opacity:1;
+ background-color:transparent;
+ display:flex;
+ justify-content:flex-end;
+ align-items:center;
+}
+
+header #branding h1{
+color:antiquewhite;  
+
+}
+
+ 
+
+
+
+header .highlight, header .current a{
+color: rgb(100, 191, 237);
+  
+
+}
+
+header a:hover{
+background-color: #f199ff;
+color:#00b3ff;
+
+  
+
+}
+
+
+footer{
+background-color:bisque;
+padding:20px;
+margin: 5px;
+text-align: center;
+
+  
+
+}
+
+#newsletter form input[type="email"], .quote input, .quote textarea{
+   color:palegoldenrod;
+  }
+
