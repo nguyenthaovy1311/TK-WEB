@@ -1,0 +1,119 @@
+body{
+background-color: aliceblue;
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif
+ 
+
+}
+
+/* Global */
+.container{
+  color: black;
+  font-style: oblique;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+ 
+}
+
+ul{
+padding-left: 5px;
+padding-top: 5px;
+padding-right: 5px;
+padding-bottom: 5px;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+
+
+/* Header **/
+header{
+columns: 2; 
+background-color: darkgray;
+color:azure;
+border-bottom: 3px red;
+font-family: Arial, Helvetica, sans-serif;
+border-radius: 4px;
+}
+
+header a{
+  text-decoration: none;
+
+}
+
+header li{
+ display: inline-block; 
+ padding-right: 25px;
+
+}
+
+header #branding{
+ color:azure; 
+ font-size: 20px;
+
+}
+
+header #branding h1{
+color: azure;
+font-size: 20px;
+
+}
+
+header nav{
+position: initial;
+transform: translateX(0);
+opacity: 1;
+justify-content: flex-end;
+align-items: center;
+font-size: 19px;
+
+}
+
+header .highlight, header .current a{
+color: rgb(95, 160, 114);
+font-size: 20px;
+
+}
+
+header a:hover{
+background-color: aquamarine;
+color: rgba(0, 0, 0, 0.758); 
+border-radius: 12px;
+cursor: pointer;
+
+}
+
+/* Showcase */
+#showcase{
+background-image: url(/Ma\ nguon\ cac\ bai\ tap/EX06/img/showcase.jpg);
+
+height: 50vb;
+border-radius:4px;
+
+}
+
+#showcase h1{
+ text-align: center; 
+ color: aqua;
+ padding-top: 150px;
+ margin: 10px;
+ font-size: 22px;
+
+}
+
+#showcase p{
+ text-align: center; 
+ color: aquamarine;
+ padding-bottom: -50px;
+ font-size: 16px;
+}
+
+
+footer{
+background-color: bisque;
+padding: 15px;
+margin: 5px;
+text-align: center;
+border-radius: 12px;
