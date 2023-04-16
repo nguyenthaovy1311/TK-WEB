@@ -82,7 +82,7 @@ header a:hover{
 
 /* Showcase */
 #showcase{
-    min-height: 200px;
+    min-height: 400px;
     background-image: url(/EX08/img/showcase.jpg);
     text-align: center;
     color: azure;
