@@ -1,119 +1,105 @@
 body{
-background-color: aliceblue;
-font-size: 20px;
-font-family: Arial, Helvetica, sans-serif
- 
+    background-color:lavender;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif
 
 }
 
 /* Global */
 .container{
-  color: black;
-  font-style: oblique;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-left: 100px;
-  margin-right: 100px;
- 
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+
 }
 
 ul{
-padding-left: 5px;
-padding-top: 5px;
-padding-right: 5px;
-padding-bottom: 5px;
-margin-left: 10px;
-margin-right: 10px;
+    margin: 0;
+    padding: 0;
+
 }
 
 
 
 /* Header **/
 header{
-columns: 2; 
-background-color: darkgray;
-color:azure;
-border-bottom: 3px red;
-font-family: Arial, Helvetica, sans-serif;
-border-radius: 4px;
+    padding-top: 30px;
+    min-height: 70px;
+    background:gainsboro;
+    color: white;
+    border-bottom: 3px solid darkseagreen;
 }
 
 header a{
-  text-decoration: none;
+    color: gray;
+    text-decoration: none; 
+    text-transform: uppercase;
+    font-size: 18px; 
 
 }
 
 header li{
- display: inline-block; 
- padding-right: 25px;
+    display: inline; 
+    padding-right: 25px;
+    float: left;  
 
 }
 
 header #branding{
- color:azure; 
- font-size: 20px;
+    float: left;
 
 }
 
 header #branding h1{
-color: azure;
-font-size: 20px;
+    margin: 0;
 
 }
 
 header nav{
-position: initial;
-transform: translateX(0);
-opacity: 1;
-justify-content: flex-end;
-align-items: center;
-font-size: 19px;
+    float: right;
+    margin-top: 10px;
 
 }
 
 header .highlight, header .current a{
-color: rgb(95, 160, 114);
-font-size: 20px;
+    color: rgba(95, 145, 160, 0.843);
+    font-weight: bold;
 
 }
 
 header a:hover{
-background-color: aquamarine;
-color: rgba(0, 0, 0, 0.758); 
-border-radius: 12px;
-cursor: pointer;
+    color: rgba(0, 0, 0, 0.758); 
+    font-weight: bold;
 
 }
 
 /* Showcase */
 #showcase{
-background-image: url(/Ma\ nguon\ cac\ bai\ tap/EX06/img/showcase.jpg);
-
-height: 50vb;
-border-radius:4px;
+    min-height: 400px;
+    background-image: url(/EX06/img/showcase.jpg);
+    text-align: center;
+    color: azure;
 
 }
 
 #showcase h1{
- text-align: center; 
- color: aqua;
- padding-top: 150px;
- margin: 10px;
- font-size: 22px;
+    padding-top: 150px;
+    margin: 10px;
+    font-size: 40px;  
 
 }
 
 #showcase p{
- text-align: center; 
- color: aquamarine;
- padding-bottom: -50px;
- font-size: 16px;
+    font-size: 16px; 
 }
 
 
 footer{
-background-color: bisque;
-padding: 15px;
-margin: 5px;
-text-align: center;
-border-radius: 12px;
+    background-color: bisque;
+    padding: 15px;
+    margin-top: 15px;
+    text-align: center;
+    border-radius: 12px; 
+
+}
+
