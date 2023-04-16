@@ -1,81 +1,69 @@
 body{
- background-color:chartreuse;
- font-size:15px/1.5 Arial, Helvetica,sans-serif;
- padding:0;
-margin:0;
+  background-color:lavender;
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  
 }
 
 
 /* Header **/
 header{
- columns:2;
- background-color:lightslategray;
- color:#ffff;
- padding: 30px;
- min-height: 50px;
- border-bottom:rgb(30, 135, 255) solid;
- 
+  background:gainsboro;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:darkseagreen 3px solid;
 }
-
-   
-      
-
 
 header a{
- text-decoration:none;
+  color:gray
+  text-decoration: none; 
+  text-transform: uppercase;
 }
+
 header li{
- display:inline-block;
- padding-right:24px;
+  float:
+  display:
+  padding: 
 }
+
 header #branding{
-   color:rgb(255, 242, 0)
-}
-header nav{
- position:initial;
- transform: translateX(0);
- opacity:1;
- background-color:transparent;
- display:flex;
- justify-content:flex-end;
- align-items:center;
+  float:
 }
 
 header #branding h1{
-color:antiquewhite;  
-
+  margin:
 }
 
- 
-
-
+header nav{
+  float:
+  margin-top:
+}
 
 header .highlight, header .current a{
-color: rgb(100, 184, 237);
-  
-
+  color:
+  font-weight:
 }
 
 header a:hover{
-background-color: #ff99c560;
-color:#00b3ff;
-
-  
-
+  color:
+  font-weight:
 }
 
 
 footer{
-background-color:bisque;
-padding:20px;
-margin: 5px;
-text-align: center;
-
-  
-
+  padding:20px;
+  margin-top:20px;
+  color:black;
+  background-color:bisque;
+  text-align: center;
 }
 
-#newsletter form input[type="email"], .quote input, .quote textarea{
-   color:palegoldenrod;
+
+
+  #newsletter form input[type="email"], .quote input, .quote textarea{
+    width:
+    margin-bottom:
   }
 
