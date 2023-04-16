@@ -1,26 +1,25 @@
 body{
-    background-color:rgba(255, 255, 255, 0.616);
-    font-size:15px/1.5 Arial, Helvetica,sans-serif;
+    background-color:lavender;
+    font: 15px/1.5 Arial, Helvetica,sans-serif;
     padding:0;
-    margin:0;  
+    margin:0;
 }
 
 
 /* Header **/
 header{
-    
-        columns:2;
-        background-color:lightslategray;
-        color:#ffff;
-        padding: 30px;
-        border-bottom:rgb(30, 135, 255) solid; 
-        
+    background:gainsboro;
+    color:#ffffff;
+    padding-top:30px;
+    min-height:70px;
+    border-bottom:darkseagreen 3px solid
 }
 
 footer{
-    background-color:bisque;
     padding:20px;
-    margin: 5px;
+    margin-top:20px;
+    color:black;
+    background-color:bisque;
     text-align: center;
-    border-radius:12px;
 }
+
