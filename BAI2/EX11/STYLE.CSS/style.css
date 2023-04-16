@@ -102,7 +102,7 @@ body{
   
   /* Showcase */
   #showcase{
-  min-height: 200px;
+  min-height: 400px;
   background-image: url(/EX11_Mobile/img/showcase.jpg);
   text-align: center;
   color: azure;
