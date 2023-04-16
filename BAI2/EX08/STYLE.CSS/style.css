@@ -83,7 +83,7 @@ header a:hover{
 /* Showcase */
 #showcase{
     min-height: 200px;
-    background-image: url(/Ma\ nguon\ cac\ bai\ tap/EX06/img/showcase.jpg);
+    background-image: url(/EX08/img/showcase.jpg);
     text-align: center;
     color: azure;
 }
@@ -143,4 +143,3 @@ footer{
     text-align: center;
     border-radius: 12px; 
 }
-
