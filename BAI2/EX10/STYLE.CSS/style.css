@@ -97,7 +97,7 @@ body{
     
     /* Showcase */
     #showcase{
-    min-height: 200px;
+    min-height: 400px;
     background-image: url(/EX10/img/showcase.jpg);
     text-align: center;
     color: azure;
